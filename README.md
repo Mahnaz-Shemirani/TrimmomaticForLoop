@@ -1,8 +1,9 @@
 # TrimmomaticForLoop
 How to use trimmomatic for serial iteration
 
+#make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
 
-# save path of trimmomatic in a variable fo reasiest use
+# save path of trimmomatic in a variable for easiest use
 Trim='/PATH TO DIRECTORY/trimmomatic.jar'
 
 
@@ -29,3 +30,10 @@ do
 	let i=$i+1
 done
 rm out/*U.fastq # Remove Unpaired Files
+
+
+#You can also save each for/rev in a variable and put them in formula to look professional
+#Copy this script in a text editor and save it where the raw data exist.
+
+
+
