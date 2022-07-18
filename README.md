@@ -31,20 +31,20 @@
 Trim='/home/mahnaz/Downloads/program/Bioinformatic/Trimmomatic/trimmomatic.jar'
 
 
-let i=1
+	let i=1
 
-for file in /HOME/MAHNAZ/merged/*.fastq.gz  # Loop over the number of sample files   
+	for file in /HOME/MAHNAZ/merged/*.fastq.gz  # Loop over the number of sample files   
 
-do   
+	do   
 	#Run trimmomatic
 	
 	java -jar "$Trim" PE -phred33 EC${i}_R1.fastq.gz EC${i}_R2.fastq.gz -baseout out/EC${i}.fastq ILLUMINACLIP:Nextera.fa:0:20:6 HEADCROP:12 SLIDINGWINDOW:4:20 MINLEN:30
 	
 	let i=$i+1
 	
-done
+	done
 
-rm out/*U.fastq # Remove Unpaired Files
+	rm out/*U.fastq # Remove Unpaired Files
 
 
 #You can also save each for/rev in a variable and put them in formula to look professional
