@@ -1,8 +1,11 @@
-
 #TrimmomaticForLoop
+
 #How to use trimmomatic for serial iteration in Linux
+
 #make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
+
 #save path of trimmomatic in a variable for easiest use
+
 #Trim='/PATH TO DIRECTORY/trimmomatic.jar'
 
 #Trim UMIs from both R1 and R2:
@@ -25,6 +28,7 @@ rm out/*U.fastq # Remove Unpaired Files
 
 
 #EAMPLE
+
 #save path
 Trim='/home/mahnaz/Downloads/program/Bioinformatic/Trimmomatic/trimmomatic.jar'
 
