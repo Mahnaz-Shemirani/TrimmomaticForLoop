@@ -1,3 +1,4 @@
+
 # TrimmomaticForLoop
 # How to use trimmomatic for serial iteration
 # make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
