@@ -1,11 +1,10 @@
 # TrimmomaticForLoop
-How to use trimmomatic for serial iteration
-
-#make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
-
+# How to use trimmomatic for serial iteration
+# make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
 # save path of trimmomatic in a variable for easiest use
-Trim='/PATH TO DIRECTORY/trimmomatic.jar'
+# Trim='/PATH TO DIRECTORY/trimmomatic.jar'
 
+# Trim UMIs from both R1 and R2:
 
 let i=1
 
