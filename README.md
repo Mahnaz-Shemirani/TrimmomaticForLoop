@@ -1,6 +1,6 @@
 
 #TrimmomaticForLoop
-#How to use trimmomatic for serial iteration
+#How to use trimmomatic for serial iteration in Linux
 #make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
 #save path of trimmomatic in a variable for easiest use
 #Trim='/PATH TO DIRECTORY/trimmomatic.jar'
