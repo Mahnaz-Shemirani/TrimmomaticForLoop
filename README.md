@@ -1,5 +1,3 @@
-#TrimmomaticForLoop
-
 #How to use trimmomatic for serial iteration in Linux
 
 #make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
