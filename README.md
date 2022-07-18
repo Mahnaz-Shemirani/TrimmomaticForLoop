@@ -8,11 +8,11 @@
 
 #Trim UMIs from both R1 and R2:
 
-let i=1
+	let i=1
 
-for file in /PATH TO FOLDER CONTANING RAW DATA/*.fastq.gz  # Loop over the number of sample files
+	for file in /PATH TO FOLDER CONTANING RAW DATA/*.fastq.gz  # Loop over the number of sample files
 
-do 
+	do 
 
 	#Run trimmomatic
 	
@@ -20,9 +20,9 @@ do
 	
 	let i=$i+1
 	
-done
+	done
 
-rm out/*U.fastq # Remove Unpaired Files
+	rm out/*U.fastq # Remove Unpaired Files
 
 
 #EAMPLE
