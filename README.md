@@ -1,3 +1,4 @@
+# TrimmomaticForLoop
 #How to use trimmomatic for serial iteration in Linux
 
 #make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
@@ -25,7 +26,7 @@
 	rm out/*U.fastq # Remove Unpaired Files
 
 
-#EAMPLE
+#EAMPLE from bacterial WGS data
 
 #save path
 Trim='/home/mahnaz/Downloads/program/Bioinformatic/Trimmomatic/trimmomatic.jar'
