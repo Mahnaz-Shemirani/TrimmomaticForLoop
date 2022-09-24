@@ -26,10 +26,10 @@
 	rm out/*U.fastq # Remove Unpaired Files
 
 
-#EAMPLE from bacterial WGS data
+#EXAMPLE from bacterial WGS data
 
 #save path
-Trim='/home/mahnaz/Downloads/program/Bioinformatic/Trimmomatic/trimmomatic.jar'
+Trim='/home/mahnaz/Bioinformatic/Trimmomatic/trimmomatic.jar'
 
 
 	let i=1
