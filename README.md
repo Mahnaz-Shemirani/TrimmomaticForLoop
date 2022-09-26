@@ -15,7 +15,7 @@
 
 	do 
 
-	#Run trimmomatic
+#Run trimmomatic
 	
 	java -jar "$Trim" PE -phred33 NAME${i}_R1.fastq.gz NAME${i}_R2.fastq.gz -baseout out/NAME${i}.fastq ILLUMINACLIP:Nextera.fa:0:20:6 HEADCROP:12 SLIDINGWINDOW:4:20 MINLEN:30
 	
@@ -37,7 +37,7 @@ Trim='/home/mahnaz/Bioinformatic/Trimmomatic/trimmomatic.jar'
 	for file in /HOME/MAHNAZ/merged/*.fastq.gz  # Loop over the number of sample files   
 
 	do   
-	#Run trimmomatic
+#Run trimmomatic
 	
 	java -jar "$Trim" PE -phred33 EC${i}_R1.fastq.gz EC${i}_R2.fastq.gz -baseout out/EC${i}.fastq ILLUMINACLIP:Nextera.fa:0:20:6 HEADCROP:12 SLIDINGWINDOW:4:20 MINLEN:30
 	
