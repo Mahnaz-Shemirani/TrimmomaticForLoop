@@ -7,8 +7,6 @@
 
 #Trim='/PATH TO DIRECTORY/trimmomatic.jar'
 
-#Trim UMIs from both R1 and R2:
-
 	let i=1
 
 	for file in /PATH TO FOLDER CONTANING RAW DATA/*.fastq.gz  # Loop over the number of sample files
