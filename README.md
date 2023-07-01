@@ -1,4 +1,4 @@
-# TrimmomaticForLoop
+# TrimmomaticForLoop paper https://doi.org/10.1186/s12879-022-07977-0
 #How to use trimmomatic for serial iteration in Linux
 
 #make a directory such as 'out' in the same forlder where raw data exist to save trimmed file 
